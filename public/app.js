@@ -1,10 +1,14 @@
 
 
 const campaignData = async () => {
-  const response = await fetch('http://localhost:3000/data');
-  const data = await response.json();
-  await createClass(data);
-  return data;
+  try{
+    const response = await fetch('http://localhost:3000/data');
+    const data = await response.json();
+    await createClass(data);
+    return data;
+  } catch(error){
+    console.error(error);
+  }
 }
 
 class Campaign {
