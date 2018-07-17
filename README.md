@@ -1,25 +1,16 @@
-AdCellerant Front End Code Challenge
-------------------------------------
+# Adcellerant
 
-Hello!
+### My design:
 
-Thank you for your interest in the AdCellerant engineering team! This is an open ended challenge
-giving you full creative license to do as you please. We have set up for you a very simple node
-server serving up some JSON at `localhost:3000/data`. Your task is to display this data in an interesting
-and efficient way using whichever technology you're comfortable with. We're looking for fluency in javascript,
-appropriate use of markup, and responsive styling. When you've completed this challenge create a pull request,
-update the README on how to get your submission running, and our engineering team will review it.
+![Project Screenshot](public/design.png) 
 
 
-Bonus Points for:
+## Getting Started
+Project created using vanila JS, Node.js and Express. 
 
-- Tests
-- Interactive Charts
-- React/Angular 
+To install, clone down this repository and use node or nodemon to start the server.js file.
 
-Instructions For Install
-------------------------
-- Fork and clone the repo
-- `npm install`
-- `npm start`
 
+## Author
+
+* **Stephanie Ospina** [Github](https://github.com/sospinar21/)

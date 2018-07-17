@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 
 const db = require('./db/db');
+app.use(express.static('public'));
 
 app.get('/data', (req, res) => {
   res.json(JSON.parse(JSON.stringify(db)))

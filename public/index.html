@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="app.css" rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <section class='content'>
+    <section class='menu'>
+        <nav role = 'navigation' class = 'sideMenu'>
+            <section class ='userInfo'>
+              <h3 aria-label = "dashboard">Adcellerant</h3>
+            </section>  
+            <section class ='menuSection' role='navigation'>
+              <p>Main</p>
+              <a href = '' aria-label = "Home" class = 'aMenu'><i class="material-icons">home</i>HOME</a>
+              <a href = '' aria-label = "projects" class = 'aMenu'><i class="material-icons">folder_open</i>PROJECTS</a>
+              <a href = '' aria-label = "CRM" class = 'aMenu'><i class="material-icons">portrait</i>CRM</a>
+              <a href = '' aria-label = "calendar" class = 'aMenu'><i class="material-icons">today</i>CALENDAR</a>
+              <a href = '' aria-label = "tasks" class = 'aMenu'><i class="material-icons">content_paste</i>TASKS</a>  
+            </section>
+            <section  role = 'navigation' class ='admin'>
+              <p>Admin</p>
+              <a href = '' aria-label = "users" class = 'aMenu'><i class="material-icons">account_box</i>USERS</a>
+              <a href = '' aria-label = "location" class = 'aMenu'><i class="material-icons">location_on</i>LOCATION</a>
+              <a href = '' aria-label = "workflow" class = 'aMenu'><i class="material-icons">timeline</i>WORKFLOW</a>
+              <a href = '' aria-label = "settings" class = 'aMenu'><i class="material-icons">settings</i>SETTINGS</a>
+              <a href = '' aria-label = "Home" class = 'aMenu'></a> 
+            </section> 
+            <section role = 'navigation' class ='menuSection'>
+              <p>Categories</p>
+              <a href = '' aria-label = "Priority 1" class = 'aMenu'><i class="material-icons red">fiber_manual_record</i>Priority 1</a>
+              <a href = '' aria-label = "Priority 2" class = 'aMenu'><i class="material-icons orange">fiber_manual_record</i>Priority 2</a>
+              <a href = '' aria-label = "Priority 3" class = 'aMenu'><i class="material-icons yellow">fiber_manual_record</i>Priority 3</a>
+              <a href = '' aria-label = "Priority 4" class = 'aMenu'><i class="material-icons green">fiber_manual_record</i>Priority 4</a>
+              <a href = '' aria-label = "Priority 5" class = 'aMenu'><i class="material-icons">fiber_manual_record</i>Priority 5</a> 
+            </section>
+          </nav>
+    </section>
+    <section class='main'>
+      <section aria-label = "search projects" class = 'searchBox'>
+        <div class = 'iconTop'>
+          <i class="material-icons">menu</i>
+        </div>
+        <i class="material-icons searchIcon">search</i>
+        <input type="" aria-label = "search projects" name="Search Project" placeholder= "Search projects"></input>
+        <div aria-label = 'sort projects' class = 'iconTop'>
+          <i class="material-icons">sort</i>
+        </div>
+        <div aria-label = 'lock this project' class = 'iconTop iconBorder'>
+          <i class="material-icons hover">lock</i>
+        </div>
+        <div aria-label = 'help' class = 'iconTop'>
+          <i class="material-icons hover">help</i>
+        </div>
+        <i class="material-icons hover hide oculto">menu</i>
+      </section>
+      <section aria-label = "select Group" class = 'select-group'>
+        <h2>Select Ad Id</h2>
+        <select class='dropdown'>
+            <option value="Add Id">977486787</option>
+        </select>
+      </section>
+      <section aria-label = "Ad group information" class = 'promo-info'>
+      </section>
+      <section class='container'>
+        <section class='hidden'>
+          <div class = 'card' id='template'>
+            <article class='first-line'>
+              <div class='status'></div>
+              <h1 class='campaigne-name'>Campaigne Name</h1>
+            </article>
+            <article class='sec-line'>
+              <h2 class='impressions'>impressions</h2>
+              <h2 class='sis'>SearchImpressionShare</h2>
+              <h2 class='max-impressions'>Max Impressions</h2>
+            </article>
+            <article class='third-line'>
+              <h2 class='ctr'>ctr</h2>
+              <h2 class='avgCpc'>avgCpc</h2>
+              <h2 class='avg-position'>Avg position</h2>
+            </article>
+            <article class='fourth-line'>
+              <h2 class='clicks'>Clicks</h2>
+              <h2 class='conversion'>conversion</h2>            
+              <h2 class='cost'>cost</h2>
+            </article>
+          </div>
+        </section>
+      </section>
+    </section>
+  </section>
+  <script src='app.js'></script>
+</body>
+</html>
